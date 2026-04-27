@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veranstaltungen - Bayville</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-veranstaltungen">
+  <header class="main-header">
+    <div class="header-inner">
+            <a href="index.html"><img src="Assets/LOgo.png" alt="logoStadt Bayville Logo" class="logo" style="height: 70px; width: 70px;"></a>
+      <button id="sidebarToggle" class="btn">Menü</button>
+    </div>
+  </header>
+
+  <!-- Sidebar, kommt von rechts -->
+  <aside id="sidebar" class="sidebar">
+    <nav class="sidebar-nav">
+      <a href="index.html">Startseite</a>
+      <a href="tourismus.html">Tourismus</a>
+      <a href="veranstaltungen.html">Veranstaltungen</a>
+      <a href="kontakt.html">Kontakt (DE)</a>
+    </nav>
+  </aside>
+
+  <div id="overlay" class="overlay"></div>
+
+  <main class="section">
+    <h1>Veranstaltungen</h1>
+    <p>Alle kommenden Veranstaltungen der Stadt findet ihr hier. Feste, Konzerte, Märkte und Sportveranstaltungen – immer aktuell und informativ dargestellt.</p>
+
+    <h2>Geschichte der Veranstaltungen</h2>
+    <p>Unsere Stadt ist bekannt für ihre lebendigen Events. Von mittelalterlichen Märkten inspirierten Festen bis zu modernen Sportevents – die Tradition lebt fort.</p>
+
+    <h2>Aktuelle Events</h2>
+    <div class="card-grid">
+      <article class="info-card">
+        <h3>Live Musik am Wasser</h3>
+        <p>Das B2 Bistro & Bar verwandelt sich am Wochenende in eine lebendige Bühne für regionale Talente und bekannte Coverbands. Besucher können hier bei entspannter Atmosphäre und einem kühlen Drink den weiten Blick über die Bucht genießen, während die Live-Performances für den perfekten musikalischen Ausklang der Woche sorgen.</p>
+        <ul>
+          <li>Datum: Wochenende</li>
+          <li>Ort: B2 Bistro & Bar</li>
+          <li>Eintritt: Frei / Gastronomie</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3>Interaktiver Krimi-Abend</h3>
+        <p>In der Elks Lodge wird es spannend, wenn professionelle Schauspieler die Gäste in einen mysteriösen Kriminalfall verwickeln. Inmitten einer stimmungsvollen Kulisse genießen die Teilnehmer ein mehrgängiges Menü und kombinieren dabei geschickt die ausliegenden Indizien, um den Täter noch vor dem Dessert zu entlarven.</p>
+        <ul>
+          <li>Datum: Auf Anfrage / Termine</li>
+          <li>Ort: Elks Lodge</li>
+          <li>Eintritt: Ticket inklusive Menü</li>      
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3>Handgemacht & Regional: Der Kunstmarkt</h3>
+        <p>Entdecken Sie die Vielfalt lokaler Handwerkskunst auf dem Marktplatz. Von handgetöpferter Keramik bis hin zu upgecycelten Modeaccessoires bieten zahlreiche Aussteller ihre Unikate an. Ein begleitendes Rahmenprogramm mit Live-Vorführungen alter Handwerkstechniken macht den Besuch zu einem Erlebnis für Kulturliebhaber.</p>
+        <ul>
+          <li>Datum: 14. September</li>
+          <li>Ort: Historischer Marktplatz</li>
+          <li>Eintritt: Frei</li>
+        </ul>
+        </article>
+        <article class="info-card">
+        <h3>Sunset Yoga & Wellness</h3>
+        <p>Finden Sie Ihre innere Ruhe bei einer geführten Yoga-Session unter freiem Himmel. Während die Sonne langsam hinter dem Horizont verschwindet, leitet ein erfahrener Coach die Gruppe durch entspannende Übungen. Im Anschluss gibt es gesunde Smoothies und die Möglichkeit zum Austausch in lockerer Atmosphäre.</p>
+        <ul>
+          <li>Datum: Jeden Donnerstag (Juni-Aug)</li>
+          <li>Ort: Deichwiese</li>
+          <li>Eintritt: 10 €</li>
+        </ul>
+        </article>
+    </div>
+
+    <h2>Gastronomie bei Events</h2>
+    <p>Viele Veranstaltungen bieten lokale Spezialitäten. Probieren Sie Street Food und Craft Beer bei unseren Festivals.</p>
+
+    <h2>Tipps</h2>
+    <ul>
+      <li>Früh buchen für beliebte Events.</li>
+      <li>Nutzen Sie öffentliche Verkehrsmittel für bessere Erreichbarkeit.</li>
+      <li>Anekdote: Das Sommerfest geht auf ein altes Erntefest zurück, das vor Jahrhunderten begann.</li>
+    </ul>
+
+  </main>
+
+    <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Kontakt</h3>
+        <p>Stadt Musterstadt</p>
+        <p>Rathausplatz 1, 12345 Musterstadt</p>
+        <p>Telefon: +49 123 456789</p>
+        <p>E-Mail:info@musterstadt.de</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quicklinks</h3>
+        <a href="index.html">Startseite</a><br />
+        <a href="kontakt.html">Kontakt</a><br />
+        <a href="veranstaltungen.html">Veranstaltungen</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span id="lightbox-close" class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Vollbild" />
+  </div>
+</body>
+</html>

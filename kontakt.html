@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt - Bayville</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-kontakt">
+  <header class="main-header">
+    <div class="header-inner">
+      <a href="index.html"><img src="Assets/LOgo.png" alt="logoStadt Bayville Logo" class="logo" style="height: 70px; width: 70px;"></a>
+      <button id="sidebarToggle" class="btn">Menü</button>
+    </div>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <nav class="sidebar-nav">
+      <a href="index.html">Startseite</a>
+      <a href="tourismus.html">Tourismus</a>
+      <a href="veranstaltungen.html">Veranstaltungen</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </aside>
+
+  <div id="overlay" class="overlay"></div>
+
+  <main class="section">
+    <h1>Kontakt</h1>
+    <p>Schreibe uns eine Nachricht, wenn du Fragen zur Stadt oder einem Projekt hast.</p>
+
+    <div class="card-grid">
+      <article class="info-card">
+        <h3>Kontaktformular</h3>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Name" >
+          <input type="email" placeholder="E-Mail" >
+          <textarea placeholder="Nachricht"></textarea>
+          <button type="submit" class="btn">Absenden</button>
+        </form>
+      </article>
+      <article class="info-card">
+        <h3>Kontaktdaten</h3>
+        <p><strong>Adresse:</strong> Rathausplatz 1, 12345 Bayville</p>
+        <p><strong>Telefon:</strong> 01234 567890</p>
+        <p><strong>E-Mail:</strong> info@Bayville.de</p>
+      </article>
+      <article class="info-card">
+        <h3>Öffnungszeiten</h3>
+        <p>Mo-Fr: 8-18 Uhr<br>Sa: 9-12 Uhr<br>So: Geschlossen</p>
+      </article>
+    </div>
+  </main>
+
+    <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Kontakt</h3>
+        <p>Stadt Bayville</p>
+        <p>Rathausplatz 1, 12345 Bayville</p>
+        <p>Telefon: +49 123 456789</p>
+        <p>E-Mail:info@bayville.de</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quicklinks</h3>
+        <a href="index.html">Startseite</a><br />
+        <a href="kontakt.html">Kontakt</a><br />
+        <a href="veranstaltungen.html">Veranstaltungen</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Hallo Herr Jung, da ich (Piet) ja außversehen meine Projektarbeit gelöscht 
+hatte habe ich trotzdem mein bestes versucht, in der style.css datei finden
+sie eine ellen lange liste aber diese ist nicht mehr aktuell und ich hatte 
+vergessen die nicht genutzten raus zu nehmen
